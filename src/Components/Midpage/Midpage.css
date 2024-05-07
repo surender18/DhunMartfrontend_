@@ -1,0 +1,42 @@
+.Head{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.head-right .vid{
+    border-radius: 20px;
+    animation: fade 0.3s ;
+    height: auto;
+    padding: 5px;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.head-left{
+    text-align: center;
+    /* justify-content: center; */
+    place-content: center;
+    margin: auto;
+}
+.head-left .head-1{
+    color: greenyellow;
+    font-size: 45px;
+    font: bold;
+
+}
+.head-left span{
+    color: blue;
+}
+.head-left p{
+    font-size: 16px;
+    color: rgb(6, 144, 144);
+  
+  animation: fadeIn 3s;    
+}
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
